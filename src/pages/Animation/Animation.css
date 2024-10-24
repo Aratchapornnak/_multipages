@@ -1,0 +1,32 @@
+#container {
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#field {
+    border: 2px solid gray;
+    box-shadow: 0 0 0.25rem gray;
+    margin: 10px;
+    background-position: center;
+    border-radius: 5px;
+    background-image: url(./images/field.jpg);
+    position: relative;
+    height: 500px;
+    width: 700px;
+}
+
+#control {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ball {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 1s;
+    height: 100px;
+    width: 100px;
+}
